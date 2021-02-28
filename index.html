@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,41 +10,35 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Weather App</title>
 </head>
-<body>
-    <header>
-        <h1>Weather App</h1>
-    </header>
-    <main>
-        <div class="data">
-            <p>Weather For:</p>
-            <p id="city"></p>
-        </div>
-        <div class="data">
-            <p>Temperature:</p>
-            <p id="temp"></p>
-        </div>
-        <div class="data">
-            <p>Feels Like:  </p>
-            <p id="feel"></p>
-        </div>
-        <div class="data">
-            <p>Weather:</p>
-            <p id="weather"></p>
-        </div>
-        <div class="future">
 
+<body>
+    <main>
+        <div class="container">
+            <div class="box">
+                <h1>Weather App</h1>
+                <div class="data">
+                    <p>Weather For:</p>
+                    <p id="city"></p>
+                </div>
+                <div class="data">
+                    <p>Temperature:</p>
+                    <p id="temp"></p>
+                </div>
+                <div class="data">
+                    <p>Feels Like: </p>
+                    <p id="feel"></p>
+                </div>
+                <div class="data">
+                    <p>Weather:</p>
+                    <p id="weather"></p>
+                </div>
+                <form>
+                    <input type="text" placeholder="City Name" id="city-input">
+                    <input type="submit" value="Get Weather Info">
+                </form>
+            </div>
         </div>
     </main>
-    <form>
-        <input type="text" placeholder="City Name" id="city-input">
-        <select name="days" id="days">
-            <option value="today">Today</option>
-            <option value="tomorrow">Tomorrow</option>
-            <option value="sunday">Sunday</option>
-            <option value="monday">Monday</option>
-            <option value="tuesday">Tuesday</option>
-        </select>
-        <input type="submit" value="Get Weather Info">
-    </form>
 </body>
+
 </html>
