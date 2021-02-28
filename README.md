@@ -1,4 +1,4 @@
-# Simple Web Weather APP
+# Weather APP
 
 ![webview](https://i.imgur.com/hhfSLAQ.jpeg)
 <img src="https://i.imgur.com/iNsSHbC.jpg" width = "200px">
