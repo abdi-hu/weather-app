@@ -20,7 +20,7 @@ function handleSubmit(evt) {
 
     $input.val('').focus();
 
-    $.ajax(`${BASE_URL}${KEY}&q=${term}&units=imperial`).then(function (data) {
+    $.ajax(`${BASE_URL}&appid=${KEY}&q=${term}&units=imperial`).then(function (data) {
         weatherData = data;
 
         render();
